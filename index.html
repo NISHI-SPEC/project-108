@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Animal Sound Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 head_div text-center">
+      <h2>Animal Sound Identifier</h2>
+      <p>Note: Whatever sound this app hears it will show the corressponding animal.</p>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button class="btn btn-warning" onclick="startClassification();"> START </button>
+        <h3 id="result_label">I can hear - </h3>
+          <br>
+          <img src="https://www.fetchfind.com/blog/wp-content/uploads/2017/08/cat-2734999_1920-5-common-cat-sounds.jpg" id="cat" width="300" height="300">
+          <img src="https://th.bing.com/th/id/OIP.7OKz7XwppjF_uadvXT-VAgHaFj?pid=ImgDet&rs=1" id="dog" width="300" height="300">
+          <img src="https://live.staticflickr.com/5295/5461005647_7a40a75c05_b.jpg" id="lion" width="300" height="300">
+          <img src="https://th.bing.com/th/id/OIP.oETOpkn4X1NEuUtZoWD_kQHaJ4?pid=ImgDet&rs=1" id="rabbit" width="300" height="300">
+         <img src="https://th.bing.com/th/id/OIP.omNWfr0ilv42IFdAJx-yLwHaEK?pid=ImgDet&rs=1" id="mouse" width="300" height="300">
+         <img src="https://i.pinimg.com/originals/ad/7c/22/ad7c22eebb6ec0fcb3cf69f54d4d4e5c.jpg" id="bear" width="300" height="300">
+         <img src="https://th.bing.com/th/id/OIP.PX_N-0s9-6xAqb-CcaEHkQHaEo?pid=ImgDet&rs=1" id="wolf" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">
+      Developed by - NISHI
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
